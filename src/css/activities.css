@@ -1,0 +1,202 @@
+@charset "utf-8";
+html,
+body {
+  height: 100%;
+}
+.wrap {
+  height: auto;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.activities {
+  width: 24.375rem;
+  height: auto;
+  margin: auto;
+  overflow-y: auto;
+  display: none;
+}
+.activities div {
+  margin-top: 1.4583333333333rem;
+}
+.activities div i {
+  width: 1.2916666666667rem;
+  height: 1.2916666666667rem;
+  background: #DB1431;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  float: left;
+}
+.activities div p {
+  text-indent: 0.5rem;
+}
+.activities div .feedback {
+  border-top: 1px dashed #E31738;
+  border-bottom: 1px dashed #E31738;
+  margin-top: 0.5rem;
+  line-height: 1.75rem;
+}
+.activities div .feedback span {
+  color: #E31738;
+}
+.activities div .feedback1 {
+  border-bottom: 1px dashed #E31738;
+  margin-top: 0.5rem;
+  line-height: 1.75rem;
+}
+.activities div .feedback1 span {
+  color: #E31738;
+}
+.instantly-price {
+  display: none;
+  margin: auto;
+}
+.instantly-price .title {
+  width: 24.583333333333rem;
+  height: 1.6666666666667rem;
+  margin-left: 0.79166666666667rem;
+}
+.instantly-price .banner {
+  width: 26.666666666667rem;
+  height: 3.1666666666667rem;
+  margin-top: 0.83333333333333rem;
+}
+.instantly-price .fonts {
+  width: 20.166666666667rem;
+  height: 5rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 1.6666666666667rem;
+}
+.sold-out {
+  margin: auto;
+  display: none;
+}
+.sold-out .title {
+  width: 19.708333333333rem;
+  height: 3.625rem;
+  margin-left: 3.3333333333333rem;
+}
+.sold-out .fonts {
+  width: 18.125rem;
+  height: 5rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 1.6666666666667rem;
+}
+.ee {
+  width: 24.291666666667rem;
+  height: 5.1666666666667rem;
+  margin-bottom: 0.41666666666667rem;
+  margin-left: 0.625rem;
+}
+.ee p {
+  width: 8.3333333333333rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  padding-top: 0.83333333333333rem;
+  color: #E31836;
+}
+.ee p big {
+  font-size: 2.5833333333333rem;
+  line-height: 2.0833333333333rem;
+}
+.ee p i {
+  font-size: 1.25rem;
+  text-decoration: line-through;
+}
+.ee .btnBox {
+  float: right;
+  margin-top: 1.25rem;
+}
+.ee .btnBox button {
+  width: 9.5833333333333rem;
+  height: 2.3333333333333rem;
+  line-height: 2.3333333333333rem;
+}
+.ee .btnBox button i {
+  display: block;
+  width: 1.6666666666667em;
+  height: 1.6666666666667em;
+  background: url(../img/bug.png) no-repeat left;
+  background-size: 100%;
+  margin-left: 0.20833333333333em;
+  margin-top: 0em;
+  float: left;
+}
+.ee .idsaible {
+  background-color: #7D7D7D;
+}
+.ee .idsaible button {
+  background: #7D7D7D;
+  border: #fff 1px dashed;
+}
+.ee .idsaible button i {
+  display: block;
+  width: 1.6666666666667em;
+  height: 1.6666666666667em;
+  background: url(../img/nobug.png) no-repeat left;
+  background-size: 100%;
+  margin-left: 0.20833333333333em;
+  margin-top: 0em;
+  float: left;
+}
+.ea {
+  width: 24.291666666667rem;
+  height: 5.1666666666667rem;
+  margin-bottom: 0.41666666666667rem;
+  margin-left: 0.625rem;
+}
+.ea p {
+  width: 8.3333333333333rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  padding-top: 0.83333333333333rem;
+  color: #E31836;
+}
+.ea p big {
+  font-size: 2.5833333333333rem;
+  line-height: 2.0833333333333rem;
+}
+.ea p i {
+  font-size: 1.25rem;
+  text-decoration: line-through;
+}
+.ea .btnBox {
+  float: right;
+  margin-top: 1.25rem;
+  background-color: #7D7D7D;
+}
+.ea .btnBox button {
+  width: 9.5833333333333rem;
+  height: 2.3333333333333rem;
+  background-color: #7D7D7D;
+  line-height: 2.3333333333333rem;
+}
+.ea .btnBox button img {
+  width: 1.625rem;
+  height: 1.5833333333333rem;
+  float: left;
+  margin-left: 0.625rem;
+  margin-top: 0.33333333333333rem;
+  height: 38rem;
+}
+
+/*zhaoyue*/
+.go-detail-box{
+    display: none;}

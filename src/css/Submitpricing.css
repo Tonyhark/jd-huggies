@@ -1,0 +1,111 @@
+.wrap {
+  padding-bottom: 1.6666666666667em;
+  height: auto;
+}
+.box {
+  text-align: center;
+}
+.box .boxcon {
+  padding-bottom: 0;
+  text-align: center;
+}
+.boxcon #bq {
+  width: 3.75em;
+  height: 2.4166666666667em;
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+  position: absolute;
+  top: 0.625em;
+  right: 0.25em;
+  text-align: center;
+  line-height: 2.0833333333333em;
+  color: #e31835;
+}
+.box #font-img {
+  margin-top: 1.0416666666667em;
+  width: 18.958333333333em;
+  height: 3.8333333333333em;
+  margin: 0.66666666666667em auto;
+}
+.box #font-img #font-3 {
+  width: 19.041666666667em;
+  height: 1.5em;
+}
+.box #font-img p {
+  color: #E31835;
+  font-size: 2.0833333333333em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.041666666666667em 0.041666666666667em 0 #FFFFFF;
+  position: relative;
+}
+.box #font-img p span {
+  display: block;
+  width: 6.25em;
+  background: #fff;
+  height: 0.083333333333333em;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.xiala {
+  width: 1.875em;
+  height: auto;
+  background: url(../img/youyige.png) no-repeat;
+  background-size: 100%;
+  float: left;
+  font-size: 4.1666666666667em;
+  color: #E31836;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.041666666666667em 0.041666666666667em 0 #FFFFFF;
+}
+.xiala b {
+  margin-left: -0.625em;
+  text-shadow: 2px 2px 2px #FFFFFF, 0.041666666666667em 0.041666666666667em 15px rgba(0,0,0,0.3);
+}
+.xialate {
+  margin-right: 0.33333333333333em;
+}
+#sect {
+  width: 20.833333333333em;
+  height: auto;
+  background: #fff;
+  text-align: center;
+  border: 3px solid #E31836;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#sect ul li {
+  text-align: center;
+  float: left;
+  width: 32.5%;
+  height: 10%;
+  line-height: 6.25em;
+  border: 1px solid #E31836;
+}
+#sect ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-shadow: 2px 2px 2px #FFFFFF, 0.041666666666667em 0.041666666666667em 15px rgba(0,0,0,0.3);
+  font-size: 4.1666666666667em;
+  color: #E31836;
+}
+
+/*@zhaoyue 删了id选择器 改为class选择器 */
+.pullDown {
+    width: 100%;
+    height: 7.5em;
+}
+.pullDown .hun-number {
+    width: 1.875em;
+    font-size: 4.1666666666667em;
+    color: #E31836;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px #FFFFFF, 0.041666666666667em 0.041666666666667em 15px rgba(0,0,0,0.3);
+    float: left;
+}
