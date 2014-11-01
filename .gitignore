@@ -4,6 +4,6 @@
 *.dat
 *.out
 *.pid
-*.gz
+*.zip
 .idea/  
 dist/  
