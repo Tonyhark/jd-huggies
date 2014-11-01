@@ -35,7 +35,6 @@ var checkStatus = function (user, sid, fn) {
         data: reqData,
         jsonpCallback: 'response',
         success: function (res) {
-            console.log(res);
 
             if (res.code == 0) {
                 // 判断：是否过期
@@ -77,7 +76,6 @@ var checkStatus = function (user, sid, fn) {
 };
 var checkLogin = function (callback, sid) {
     //'http://h5beta.m.jd.com/active/huggies/index.html'
-    var selfUrl = window.location.href;
     if (sid == "") {
         window.location.href = 'http://m.jd.com/user/login.action?returnurl=' + encodeURIComponent(CONFIG.loginReturnUrl);
         return false;

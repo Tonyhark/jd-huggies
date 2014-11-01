@@ -48,19 +48,7 @@
   top: 50%;
   left: 15%;
 }
-.pullDown {
-  width: 100%;
-  height: 7.5em;
-}
-.pullDown .hun-number {
-  width: 1.875em;
-  font-size: 4.1666666666667em;
-  color: #E31836;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 2px 2px 2px #FFFFFF, 0.041666666666667em 0.041666666666667em 15px rgba(0,0,0,0.3);
-  float: left;
-}
+
 .xiala {
   width: 1.875em;
   height: auto;
@@ -105,4 +93,19 @@
   text-shadow: 2px 2px 2px #FFFFFF, 0.041666666666667em 0.041666666666667em 15px rgba(0,0,0,0.3);
   font-size: 4.1666666666667em;
   color: #E31836;
+}
+
+/*@zhaoyue 删了id选择器 改为class选择器 */
+.pullDown {
+    width: 100%;
+    height: 7.5em;
+}
+.pullDown .hun-number {
+    width: 1.875em;
+    font-size: 4.1666666666667em;
+    color: #E31836;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px #FFFFFF, 0.041666666666667em 0.041666666666667em 15px rgba(0,0,0,0.3);
+    float: left;
 }

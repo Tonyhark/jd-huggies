@@ -391,6 +391,21 @@
     </ul>
 </div>
 
+<!--警告框-->
+<div id="pop_alert" class="popup" style="display:none;">
+    <a class="close pop_alert_confirm"></a>
+    <div class="content-box">
+        <br/><br/>
+        <p id="pop-ctnr">亲，请选择价格~</p>
+    </div>
+    <div class="ok ok_2">
+        <div class="btnBox1 btnBox1_1 pop_alert_confirm" >
+            <a href="javascript:;"><button><b>我知道了</b></button></a>
+        </div>
+    </div>
+</div>
+
+
 <!-- build:js js/app.min.js -->
 <script type="text/javascript" src="js/jQuery.js"></script>
 <script type="text/javascript" src="js/fastclick.js"></script>
@@ -455,7 +470,13 @@
                     price = hunNum * 100 + tensNum * 10 + singleNum * 1;
                     $('.spte').html(price);
                 } else {
-                    alert('亲，您还未选择价格');
+                    $('#pop_alert').bPopup({
+                        modalColor: 'black',
+                        closeClass:'pop_alert_confirm',
+                        contentContainer :'#pop-ctnr',
+                        content: '亲，您还未选择价格'
+                    });
+
                     return false;
                 }
                 var guessPriceData = $.extend({}, CONFIG.reqData);
@@ -473,7 +494,6 @@
                     data: guessPriceData,
                     success: function (res) {
                         console.log(res);
-
                         if (res.code == 0) {
                             $('.gotobuy').attr('href', CONFIG.path.order + '?sku=' + res.skuid + '&sid=' + sid);
                             //判断价格 弹出对应匹配弹框
