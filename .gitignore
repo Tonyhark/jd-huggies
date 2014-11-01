@@ -8,5 +8,5 @@ lib-cov
 *.gz
 
 
-.idea/  
-dist/  
+/.idea/  
+/dist/  
