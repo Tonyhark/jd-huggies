@@ -1,8 +1,6 @@
 /**
  * Created by Administrator on 2014/10/30.
  */
-//用户登录接口
-
 var CONFIG = {};
 //http://10.24.76.129:8080/h5sh/h5api.jsp
 CONFIG.apiUrl = 'http://h5.m.jd.com/h5api.jsp';
@@ -33,7 +31,6 @@ var checkStatus = function (user, sid, fn) {
         dataType: 'jsonp',
         url: CONFIG.apiUrl,
         data: reqData,
-        jsonpCallback: 'response',
         success: function (res) {
 
             if (res.code == 0) {
